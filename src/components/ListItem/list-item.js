@@ -15,7 +15,7 @@ class ListItem extends React.Component {
     handleClick () {
         console.log('Is Me!')
     }
-
+    // 样式的写法 使用 className
     render () {
         return (
             <div onClick={this.handleClick} className='list-item'>
